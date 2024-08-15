@@ -5,6 +5,7 @@ import { SiMongodb } from 'react-icons/si'
 import { DiRedis} from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { BiLogoPostgresql } from 'react-icons/bi'
+import { DiJava } from 'react-icons/di'
 import { animate, motion } from "framer-motion"
 
 const iconVariants=(duration)=>({
@@ -46,7 +47,7 @@ const Technologies = () => {
              initial="initial"
              animate="animate"
             className=' rounded-2xl border-4 border-neutral-800 p-4'>
-                <TbBrandNextjs className=' text-7xl '/>
+                <DiJava className=' text-7xl '/>
             </motion.div>
             <motion.div
              variants={iconVariants(3)}
