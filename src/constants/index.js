@@ -3,74 +3,49 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As a recent MCA graduate with a strong foundation in full-stack development, I am eager to bring my skills to a dynamic development team. With hands-on experience in front-end technologies such as React, and back-end technologies including Node.js, MySQL, and MongoDB, I am passionate about building robust and scalable web applications. My goal is to leverage my technical skills and problem-solving abilities to contribute to innovative projects that drive business success and deliver outstanding user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Jan 2024 - June 2024",
+    role: "Software Developer Intern",
+    company: "Techlene Software Pvt. Limited",
+    description: `Contributed to the development of an IoT solution for live truck monitoring, focusing on a dynamic and
+user-friendly admin dashboard.Enhanced the admin dashboard with real-time data visualization to support informed decision-making.`,
+    technologies: ["Javascript", "React.js", "Mysql", "Java"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+ 
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Social Media Web Application ",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Integrated customizable profiles with pictures, bio, and personal information and easy editing and updating of profile details. Developed a user-friendly interface for selecting and uploading media files. Supported various media formats including images and videos",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Netflix-Clone",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " Designed responsive login and registration pages for a seamless experience and implemented password hashing and salt for enhanced security. Integrated MovieDB API to fetch a vast collection of movies and TV shows",
+    technologies: ["HTML", "CSS", "Javascript", "React","Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Memory Game",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      " . The core concept revolves around users flipping over cards to find matching pairs. If two selected cards match, they remain visible; if not, they flip back over.",
+    technologies: ["HTML", "CSS", "Javascript", "React"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+ 
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Indore, Madhya Pradesh, India",
   phoneNo: "+91 93990 43336 ",
   email: "rajputprakash9399@gmail.com",
 };
