@@ -3,20 +3,40 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As a recent MCA graduate with a strong foundation in full-stack development, I am eager to bring my skills to a dynamic development team. With hands-on experience in front-end technologies such as React, and back-end technologies including Node.js, MySQL, and MongoDB, I am passionate about building robust and scalable web applications. My goal is to leverage my technical skills and problem-solving abilities to contribute to innovative projects that drive business success and deliver outstanding user experiences.`;
+export const HERO_CONTENT = `Software Developer with experience building scalable, high-performance web applications using React.js, TypeScript, JavaScript, Node.js, and modern web technologies. Currently developing reusable UI components, Micro Frontend applications, GraphQL integrations, and Playwright automation at Gammaedge Technology. Strong foundation in Data Structures & Algorithms with a LeetCode Contest Rating of 1800+, passionate about building efficient software, solving complex engineering problems, and delivering high-quality user experiences.`;
 
-export const ABOUT_TEXT = `I am an enthusiastic and versatile aspiring full-stack developer with a strong passion for creating efficient and user-friendly web applications. Although I am just starting my professional journey, I have already gained experience working with technologies such as React,Node.js, MySQL, PostgreSQL, and MongoDB through various projects and internships. My interest in web development stems from a deep curiosity about how things work, and I am eager to learn and adapt to new challenges. I enjoy collaborating with others and am driven by a desire to solve complex problems and deliver high-quality solutions. In addition to coding, I am keen on exploring new technologies, staying active, and contributing to open-source projects.`;
-
+export const ABOUT_TEXT = `I am a Software Developer with professional experience in designing and developing scalable web applications using React.js, TypeScript, JavaScript, Node.js, Express.js, GraphQL, PostgreSQL, and MongoDB. At Gammaedge Technology, I build reusable component libraries, develop Micro Frontend features, integrate REST and GraphQL APIs, and implement end-to-end automation testing using Playwright. I enjoy writing clean, maintainable, and performant code while collaborating in Agile teams to deliver reliable software. With a strong interest in Data Structures & Algorithms and competitive programming, I continuously improve my problem-solving skills and stay updated with modern software engineering practices. I am actively seeking opportunities to build impactful products and contribute to engineering teams that value scalability, innovation, and technical excellence.`;
 export const EXPERIENCES = [
+  {
+    year: "Dec 2024 - Present",
+    role: "Software Developer",
+    company: "Gammaedge Technology Pvt. Ltd.",
+    description:
+      "Designed and developed reusable UI components for the Intuit QBDS component library using React.js and TypeScript. Built features in a Micro Frontend architecture, integrating REST and GraphQL APIs while collaborating in Agile teams. Developed Playwright end-to-end and regression test suites, improving application stability, cross-browser compatibility, and reducing manual testing efforts.",
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "JavaScript",
+      "GraphQL",
+      "Playwright",
+      "Jest",
+    ],
+  },
   {
     year: "Jan 2024 - June 2024",
     role: "Software Developer Intern",
-    company: "Techlene Software Pvt. Limited",
-    description: `Contributed to the development of an IoT solution for live truck monitoring, focusing on a dynamic and
-user-friendly admin dashboard.Enhanced the admin dashboard with real-time data visualization to support informed decision-making.`,
-    technologies: ["Javascript", "React.js", "Mysql", "Java"],
+    company: "Techlene Software Pvt. Ltd.",
+    description:
+      "Developed an IoT-based live truck monitoring system with a dynamic admin dashboard for real-time fleet tracking. Built interactive dashboards using React.js, JavaScript, and ApexCharts for live analytics. Implemented Redux Toolkit for efficient global state management, improving application performance and component reusability.",
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "Redux Toolkit",
+      "ApexCharts",
+      "MySQL",
+      "Java",
+    ],
   },
- 
 ];
 
 export const PROJECTS = [
